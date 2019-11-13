@@ -37,7 +37,11 @@ footer {
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
+}
 
+.footerText {
+  color: #fff;
+  text-decoration: none;
 }
 
 .winnerName{
