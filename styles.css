@@ -16,7 +16,6 @@ body {
 
 h1 {
   margin: 30px;
-  font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
   font-size: 5rem;
   color: #4ECCA3;
@@ -33,14 +32,20 @@ img {
 }
 
 footer {
-  margin-top: 5%;
+  margin-top: 2%;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
+  font-size: 1.5rem;
 }
 
 .footerText {
   color: #fff;
+  text-decoration: none;
+}
+
+.footerText:hover {
+  background-color: yellow;
   text-decoration: none;
 }
 
