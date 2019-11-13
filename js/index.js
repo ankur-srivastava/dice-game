@@ -24,3 +24,8 @@ console.log(`Got ${imageName1} and ${imageName2}`);
 
 document.querySelector('.img1').setAttribute("src", imageName1);
 document.querySelector('.img2').setAttribute("src", imageName2);
+
+document.getElementById("rollDice").onClick();
+function refreshPage(){
+	location.reload();
+}
